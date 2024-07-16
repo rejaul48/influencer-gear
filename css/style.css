@@ -1,6 +1,5 @@
-
 /* universal css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,17 +8,73 @@
     list-style-type: none;
 }
 
-/* shared styles */ 
-.d-flex{
+/* shared styles */
+.d-flex {
     display: flex;
 }
-.justify-center{
+
+.justify-center {
     justify-content: center;
 }
-.justify-between{
+
+.justify-between {
     justify-content: space-between;
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-/* shared styles */ 
+
+.color-primary {
+    color: #3A3A3A;
+}
+
+.bg-primary {
+    background-color: #E02C6D;
+}
+
+.color-secondary {
+    color: #FFFFFF;
+}
+
+.d-none {
+    display: none;
+}
+
+.container-main {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* shared styles */
+/* header style */
+header {
+    margin-top: 20px;
+}
+
+.menu_items,
+.menubar {
+    gap: 15px;
+}
+
+.brand h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.menu_items li a {
+    padding: 8px 12px;
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.card a i,
+.bars_icon i {
+    font-size: 27px;
+    padding: 8px 12px;
+    line-height: 24px;
+}
+
+/* header style */
